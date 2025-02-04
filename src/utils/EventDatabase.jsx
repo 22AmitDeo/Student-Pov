@@ -1,12 +1,12 @@
 export const eventList = [
     {
       id: 1,
-      heading: "BGMI",
+      heading: "Freshers Connect",
       date: { year: 2025, month: "Feb" },
       location: "Online",
       description:
-      "Grab your squad and lock in your game faces VTAPP’25 is here – a place where legends are made and chicken dinners are servedReady to dominate the map? Let the games begin",
-    img: "https://st1.techlusive.in/wp-content/uploads/2024/09/BGMI-3.4-update.jpg",
+      "Bridging futures, sparking innovation, and building connections. Welcome to Nexus Connect: where freshers unite to explore technology and creativity",
+    img: "https://t4.ftcdn.net/jpg/04/22/20/35/360_F_422203567_cHwMQWgXTrgN2CFGjkA4ia39IVnRfR57.jpg",
     },
     {
       id: 2,
@@ -28,12 +28,12 @@ export const eventList = [
     },
     {
       id: 4,
-      heading: "Freshers Connect",
+      heading: "BGMI Tournament",
       date: { year: 2024, month: "Oct" },
       location: "Newton Hall",
       description:
-        "Bridging futures, sparking innovation, and building connections. Welcome to Nexus Connect: where freshers unite to explore technology and creativity!",
-      img: "https://t4.ftcdn.net/jpg/04/22/20/35/360_F_422203567_cHwMQWgXTrgN2CFGjkA4ia39IVnRfR57.jpg",
+          "Grab your squad and lock in your game faces VTAPP’25 is here – a place where legends are made and chicken dinners are servedReady to dominate the map? Let the games begin",
+      img: "https://st1.techlusive.in/wp-content/uploads/2024/09/BGMI-3.4-update.jpg",
     },  
   ];
   
