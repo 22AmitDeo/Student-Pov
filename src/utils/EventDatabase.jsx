@@ -15,7 +15,7 @@ export const eventList = [
     location: "Online",
     description:
       "Unleash your creativity and master the essentials of UI/UX! Join us for UXCELLENCE, a hands-on bootcamp covering everything from Figma basics to core UI/UX principles.",
-    img: "https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format",
+    img: "https://img.uxcel.com/tags/figma-1698087967030-2x.jpg",
   },
   {
     id: 3,
