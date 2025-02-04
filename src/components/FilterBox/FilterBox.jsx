@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { generateDataOptions, months, years } from "../../utils/DataRender"
+import { generateDataOptions, months, years } from "../../utils/DataRender.jsx"
 import "./FilterBox.css"
 const FilterBox = ({ getMonthYear }) => {
     const [selectedMonth, setSelectedMonth] = useState("January");

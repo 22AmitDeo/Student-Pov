@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import FilterBox from "../../components/FilterBox/FilterBox";
 import SearchEventList from "../../components/SerachEventList/SearchEventList";
 import Navigation from "../../components/Navigation/Navigation"
@@ -8,8 +8,10 @@ const FilterEvents = ()=>{
     selectedMonth:null,
     selectedYear:null
    })
+  useEffect(()=>{console.log(monthYear);
+  },[monthYear])
    const getMonthYear = useCallback((selectedMonth,selectedYear)=>{
-      setMonthYear({selectedYear,selectedMonth})
+      setMonthYear({selectedYear:selectedYear,selectedMonth:selectedMonth})
    },[])
    
     return(
